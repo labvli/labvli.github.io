@@ -17,7 +17,7 @@ var surveyJSON = {"logoPosition":"right","focusFirstQuestionAutomatic":false,"co
 function sendDataToServer(survey, options) {
 	options.showDataSaving();
 	$.ajax({
-		url: 'https://script.google.com/macros/s/AKfycbzbQoDay0UqxRMml64E8aMWgq4iInXAIC3tRyFW5LsNbnbJThy9_iEdnqB8Hobza71WJw/exec',
+		url: 'https://script.google.com/macros/s/AKfycby1vihYx4d3fd7BskbChRZCAUGK0jrLotIFhQhhPNrb8iXkrGGqf34VKWWeR6wfvwfR/exec',
 		type: 'post',
 		data: JSON.stringify(survey.data),
 		headers: {
