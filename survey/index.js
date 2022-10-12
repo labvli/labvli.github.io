@@ -22,7 +22,7 @@ function isDepExist(params) {
   var self = this;
   // call the ajax method
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbztc57kOMVdVyCVXk4xyYxNpCfej7zao1zvgKIoay39VdP_utpsnpELtp2Ul0tFb6pUDA/exec?id=1_qP49CaOalnLcgb8qGtHRcVG6xT-sAD8O5iaUoP0zbQ&sheet=Sheet2&header=1&value=" + depsName
+    url: "https://script.google.com/macros/s/AKfycbztc57kOMVdVyCVXk4xyYxNpCfej7zao1zvgKIoay39VdP_utpsnpELtp2Ul0tFb6pUDA/exec?id=1t-CvR7xgVSOYUKhhvig5P7Nh9uB7fCYQoOKIj8hUBL4&sheet=Sheet2&header=1&value=" + depsName
   }).then(function (data) {
     var found = data.length > 0;
     // return the value into the library. Library is waiting for this callback
